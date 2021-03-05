@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Random User Generator</title>
+</head>
+<body>
+    <div id="app">
+        <img :src="picture" :alt="firstName">
+        <h1>Hello {{firstName}} {{lastName}}</h1>
+        <h3>Email: {{email}}</h3>
+        <button>Get Random User</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.0.5"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
